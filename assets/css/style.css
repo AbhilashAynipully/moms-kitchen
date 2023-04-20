@@ -629,16 +629,18 @@ transform:translateX(0);
     transform: scale(1.05);
 }
 
-#signup-form a {
+#signup-form a, #signup-form button{
     text-decoration: none;
     /*animates flashing effect of text*/
     animation: flashing-text 2s infinite;
 }
 
-#signup-form a:hover {
+#signup-form a:hover,#signup-form button:hover  {
     animation: none;
     color:blueviolet;
 }
+
+
 
 #signup-form button {
     background-color: rgba(226, 132, 16, 0.2);
