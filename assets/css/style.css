@@ -433,3 +433,27 @@ transform: scale(1);
     }
 }
 
+/* menu-page */
+
+/* craving-tag */
+
+#craving-tag-outer {
+    text-align: center;
+    font-size: 150%;
+    clear: both;
+    padding:1% 0;
+    background-color: rgba(226, 132, 16, 0.2);
+    border-top: 3px solid brown;
+    border-bottom: 3px solid brown;
+    color: brown;
+    /*animates flashing effect of main menu link*/
+    animation: flashing-text 2s infinite;
+}
+
+#craving-tag-outer h2 {
+    /*animates sliding effect of craving-tag*/
+    animation-name: slide-left;
+    animation-duration: 2.5s ;
+}
+
+/* menu */
