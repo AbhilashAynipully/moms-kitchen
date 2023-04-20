@@ -161,6 +161,7 @@ transform:translateY(0);
     overflow: hidden;
     margin-left: 30px;
 }
+
 #about-chef {
     height: 70%;
     width: 65%;
@@ -174,6 +175,42 @@ transform:translateY(0);
     font-size: 125%;
     text-align: center;
     color: brown;
+}
+
+/* testimonials */
+
+#testimonials-container {
+    text-align: center;
+    height:300px;
+    margin-top: 30px;
+    margin-left: 5px ;
+}
+
+#testimonials-container h2 {
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 15px;
+    color: brown;
+}
+
+#testimonials-container h3 {
+    color: black;
+    font-size: 125%;
+    font-weight: bolder;    
+    color: brown;
+}
+
+.review {
+    float: left;
+    width: 33%;
+    height: 150px;
+    background-image: linear-gradient( rgba(226, 72, 16, 0.7), rgba(193, 149, 92, 0.22));
+    border: 1px solid brown;
+    padding: 45px 0;
+    border-radius: 10px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
