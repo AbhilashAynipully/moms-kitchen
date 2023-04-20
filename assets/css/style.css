@@ -213,4 +213,37 @@ transform:translateY(0);
     text-align: center;
 }
 
+/* discount */
+
+
+#discount-outer {
+    text-align: center; 
+    margin: 2% 0;    
+}
+
+#discount-outer a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 150%;
+    /*animates flashing effect of discount link*/
+    animation: blinking 1.2s infinite;
+}
+
+#discount-outer a:hover {
+    color:orange;
+    animation: none;
+}
+
+/* creates flashing link*/
+
+@keyframes blinking {
+    0% {
+       color: orange;
+      }
+    
+    100% {
+      color: brown;
+    } 
+  }
+
 
