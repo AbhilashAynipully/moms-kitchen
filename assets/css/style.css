@@ -786,7 +786,7 @@ transform:translateX(0);
 }
 
 #password-reset-box {
-    height: 500px;
+    min-height: 500px;
     width: auto;
     border: 3px solid brown;
     padding: 5%;
@@ -1014,7 +1014,7 @@ transform:translateX(0);
     }
 }
 
-/* For smaller screen sizes 700px wide and down */
+/* For screen sizes 700px wide and down */
 @media screen and (max-width:700px) {
     #logo {
         font-size: 200%;
@@ -1109,5 +1109,78 @@ transform:translateX(0);
 
     #signup-outer {
         margin: auto auto 175px auto;
+    }
+}
+
+/* For smaller screen sizes below 375px */
+@media screen and (max-width:374px) {
+    #logo {
+        font-size: 175%;
+        text-align: center;
+        margin:0;
+    }
+
+    #nav-menu {
+        margin:0;
+        padding: 5px 5px 5px 10px;
+        box-sizing: border-box;
+        font-size: 95%;
+        letter-spacing: 1px;
+    }
+
+    #nav-menu li {
+        margin-right: 7px;
+        margin-left: 5px;
+    }
+
+    #cover-text {
+        font-size: 75% ;
+    }
+
+    #chefs-outer {
+        padding: 1%;
+    }
+
+    #chefs-image {
+        width: 95%;
+    }
+
+    #about-chef {
+        width: 95%;
+    }
+
+    #signup-form p {
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    #signup-form label{
+        font-size: 125%;
+    }
+
+    footer {
+        height: 75px;
+        text-align: center;
+        margin: auto 0;
+        background-color: rgba(226, 132, 16, 0.2) ;
+        border-top: 3px solid brown;
+        padding: 30px;
+    }
+
+    .social-links i {
+        font-size: 250%;
+        color: brown;
+        margin: 0;
+        padding: 0 5%;   
+    }
+
+    footer a{
+        text-decoration: none;
+        color: brown;
+        margin: 50px auto;
+    }
+
+    #signup-outer {
+        margin: auto auto 200px auto;
     }
 }
