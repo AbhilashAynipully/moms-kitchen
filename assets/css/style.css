@@ -568,7 +568,45 @@ transform:translateX(0);
 }
 
 
-/* signup-form  */
+/* order page */
+
+#order-confimation-outer {
+    clear: both;
+    width: 100%;
+    height: 75vh;
+    border-top: 3px solid brown ;
+    padding: 5%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#order-confirmation {
+    max-height: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+    border: 3px solid brown;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color:rgba(226, 132, 16, 0.2) ;
+}
+
+#feedback-request{
+    max-height: 150px;
+    width: auto;
+    border: 3px solid brown;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: rgba(226, 132, 16, 0.2);
+    margin-top: 50px;
+    font-size: large;
+    font-weight: bold;
+    color: brown;
+    letter-spacing: 1px;
+}
+
+
+
+/* signup-form page  */
 
 #signup-container {
     clear: both;
