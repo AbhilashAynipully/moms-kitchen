@@ -15,13 +15,73 @@
         <h1 id="logo">Food with loads of love and care!</h1>
       <nav>
           <ul id="nav-menu">
-            <li><a href="#">SignUp</a></li>
+            <li><a class="active" href="#">SignUp</a></li>
             <li><a href="menu.html">Menu</a></li>
             <li><a href="special.html">Special</a></li>
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
           </ul>
       </nav>
     </header>
+    <div id="signup-container">
+        <div id="signup-outer">
+          <div id="signup-form">
+            <form action="" method="POST">
+              <p>
+                Sign up <br />
+                or <a href="/login.html">login to your account</a>
+              </p>
+              <br />
+              <label for="full-name">Full Name :</label>
+              <input
+                id="full-name"
+                type="text"
+                name="fullname"
+                placeholder=" Full Name"
+                required
+              />
+  
+              <label for="phone-number">Phone :</label>
+              <input
+                id="phone-number"
+                type="tel"
+                name="phone-number"
+                placeholder="07897897897"
+                required
+              />
+  
+              <label for="email-id">Email Id :</label>
+              <input
+                id="email-id"
+                type="email"
+                name="email-id"
+                placeholder=" Email Id"
+                required
+              />
+  
+              <label for="password">Password :</label>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder=" Password"
+                required
+              />
+  
+              <label for="password2">Confirm Password :</label>
+              <input
+                id="password2"
+                type="password"
+                name="password2"
+                placeholder=" Confirm Password"
+                required
+              />
+              <button type="submit">
+                <a href="/signup-confirmation.html">Submit</a>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     
     <footer>
       <ul class="social-links">
