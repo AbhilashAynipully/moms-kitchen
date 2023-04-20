@@ -63,7 +63,7 @@ h1 {
     border-bottom: 1px solid brown;
 }
 
-/* transforms logo, nav-menu */
+/* creates logo, nav-menu zoom effect*/
 
 @keyframes zoom {
     from {
@@ -73,4 +73,64 @@ transform:  scale(.1);
 transform:  scale(1);
     }
 }
+
+
+/*hero image & cover text*/
+
+#hero-outer {
+    height:815px;
+    width:100%;
+    overflow: hidden;
+    position:relative
+}
+
+#hero-image {
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    background: url(../images/hero-image-large.jpg) no-repeat center;
+    background-size: cover;
+    /*animates raise effect on loading page*/
+    animation-name:hero-raise;
+    animation-duration: 2s;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: oswald,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    background-color: rgba(226, 132, 16, 0.7);
+    bottom: -20px;
+    position: absolute;
+    color:#fff;
+    /*animates drop effect on loading page*/
+    animation-name:cover-text-drop;
+    animation-duration: 2.75s;
+}
+
+/* creates hero-image-raise and cover-text-drop effects*/
+@keyframes hero-raise {
+    from {
+transform:translateY(+100%);
+    }
+    to {
+transform:translateY(0);
+    }
+}
+
+@keyframes cover-text-drop {
+    from {
+transform:translateY(-500%);
+    }
+    to {
+transform:translateY(0);
+    }
+}
+
 
