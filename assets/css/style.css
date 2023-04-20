@@ -846,3 +846,46 @@ transform:translateX(0);
     /*animates flashing effect of text*/
     animation: flashing-text 2s infinite;
 }
+
+/* @media queries */
+
+/* For media screen size from 700px and above*/
+@media screen and (min-width:500px) {
+    #nav-menu a:hover {
+        font-size: x-large;
+    }    
+}
+
+/* For media screen size from 1200px wide and down*/
+@media screen and (max-width : 1200px) {  
+    #nav-menu {
+        clear: left;
+        float: left;
+        width: auto;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px; 
+    }
+
+    #hero-image {
+        background: url(../images/hero-1200px.jpg) no-repeat center center;
+        background-size:cover ;
+    }
+
+    #cover-text {
+        font-size: 105%;
+    }
+
+    #chefs-outer {
+        margin-top: 30px;
+    }
+
+    #chefs-image {
+         background: url(../images/chefs-1200px.jpg) no-repeat center center ;
+         background-size: cover;
+    }
+    
+    #signup-outer {
+        margin: auto auto 100px auto;
+    }
+} 
