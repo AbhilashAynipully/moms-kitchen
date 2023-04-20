@@ -215,7 +215,6 @@ transform:translateY(0);
 
 /* discount */
 
-
 #discount-outer {
     text-align: center; 
     margin: 2% 0;    
@@ -239,11 +238,53 @@ transform:translateY(0);
 @keyframes blinking {
     0% {
        color: orange;
-      }
-    
+      }    
     100% {
       color: brown;
     } 
   }
+
+  
+/* footer */
+
+footer {
+    height: 150px;
+    text-align: center;
+    margin-top: auto ;
+    background-color: rgba(226, 132, 16, 0.2) ;
+    border-top: 3px solid brown;
+}
+
+.social-links ul {
+    float: left;
+}
+
+.social-links li {
+    display: inline;
+    text-align: center;
+    margin-left: auto;    
+} 
+
+.social-links i {
+    font-size: 300%;
+    color: brown;
+    margin: 2%;
+    padding: 0 5%;   
+}
+
+.social-links i:hover  {
+    color: orange;
+}
+
+footer a{
+    text-decoration: none;
+    color: brown;
+    font-size: 125%;
+}
+
+footer a:hover {
+    color: orange;
+}
+
 
 
