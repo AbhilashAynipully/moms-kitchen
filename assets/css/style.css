@@ -5,3 +5,72 @@
     border: none;
     padding: 0;;
 }
+
+hr {
+    border: 2px solid brown;
+}
+
+/* h1 & logo */
+h1 {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: brown ; 
+}
+
+#logo {
+    float: left;
+    font-size: 230%;
+    margin-left: 30px; 
+    /*animates zoom effect on loading page*/
+    animation-name: zoom;
+    animation-duration: 2s;  
+}
+
+/* nav-menu */
+
+#nav-menu {
+    font-size:115%;
+    letter-spacing: 3px;
+    color: brown;  
+    /*animates zoom effect on loading page*/
+    animation-name: zoom;
+    animation-duration: 2s;  
+}
+
+#nav-menu, #logo {
+    line-height: 65px;
+    margin-bottom: 20px;
+}
+
+#nav-menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color:inherit;
+    font-weight: bolder;
+
+}
+#nav-menu a:hover {
+    color: rgb(239, 155, 0);
+}
+
+.active {
+    border-bottom: 1px solid brown;
+}
+
+/* transforms logo, nav-menu */
+
+@keyframes zoom {
+    from {
+transform:  scale(.1);
+    }
+    to {
+transform:  scale(1);
+    }
+}
+
