@@ -566,7 +566,7 @@ transform:translateX(0);
 #order-confimation-outer {
     clear: both;
     width: 100%;
-    height: 700px;
+    height: 750px;
     border-top: 3px solid brown ;
     padding: 5%;
     box-sizing: border-box;
@@ -878,6 +878,15 @@ transform:translateX(0);
          background-size: cover;
     }
 
+    #special-menu {
+        padding: 0;
+    }
+
+    .special {
+        margin: 0 2%;
+    }
+}
+
 
 /* For screen sizes 950px wide and down */
 @media screen and (max-width : 950px) {
@@ -916,7 +925,7 @@ transform:translateX(0);
 
     #testimonials-container {
         text-align: center;
-        height:400px;
+        height:500px;
         margin-top: 30px;
     }
 
@@ -932,7 +941,7 @@ transform:translateX(0);
     #todays-special-outer {
         clear: both;
         width: 100%;
-        height: 1200px;
+        height: 1000px;
         padding: 5% 0;
         background-color: rgba(226, 132, 16, 0.2);
         border-top: 3px solid brown;
@@ -949,7 +958,6 @@ transform:translateX(0);
     }
 
     .special {
-        height: 50%;
         width: 90%;
         clear: both;
         height: 45%;
@@ -991,10 +999,6 @@ transform:translateX(0);
     #signup-outer {
         margin: auto auto 125px auto;
     }
-
-    footer {
-        height: 175px;
-    }
 }
 
 /* For screen sizes 700px wide and down */
@@ -1027,72 +1031,40 @@ transform:translateX(0);
         height: 325px;
     }
 
-    #chefs-outer {
-        height: 100%;
-    }
-
-    #testimonials-container {
-        height:100%
-    }
-
-    #order-confimation-outer {
-        height: 75vh;
-    }
-
     #todays-special-outer { 
-        height: 100%;
+        height: 1400px;
     }
 
     .special {
-        margin:40px auto;
-        height: 100%;
+        margin:50px auto;
+        height: 45%;
         float: none;
         clear: both;
     }
 
     #special-menu {
-        height: 100%;
+        height: 90%;
         width: 100%;
         margin:0;
     }
 
-    #main-course-image {
+    #main-course-image, #dessert-image {
         width: 100%;
-        height:275px;
+        height:40%;
         float: none;
         clear: both;
     }
 
-    #main-course-text {
+    #main-course-text, #dessert-text {
         width: 100%;
         float: none;
         box-sizing: border-box;
         padding: 5%;
-       
-    }
-
-    #dessert-image {
-        width: 100%;
-        height:275px;
-        float: none;
-        clear: both;
-     
-    } 
-
-    #dessert-text {
-        width: 100%;
-        float: none;
-        box-sizing: border-box;
-        padding: 5%; 
     }
 
     #todays-special-outer h2 {
-        font-size: 200%;
+        font-size: 175%;
     } 
-
-    #signup-outer {
-        margin: auto auto 175px auto;
-    }
 }
 
 /* For smaller screen sizes below 375px */
@@ -1107,7 +1079,6 @@ transform:translateX(0);
         margin:0;
         padding: 5px 5px 5px 10px;
         box-sizing: border-box;
-        font-size: 95%;
         letter-spacing: 1px;
     }
 
