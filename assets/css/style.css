@@ -293,7 +293,7 @@ footer a:hover {
 
 #todays-special-outer {
     clear: both;
-    min-height: 60vh;
+    min-height: 600px;
     padding: 5% 0;
     background-color: rgba(226, 132, 16, 0.2);
     border-top: 3px solid brown;
@@ -352,7 +352,7 @@ footer a:hover {
     border: 2px solid brown;
 }
 
-#main-course-text {
+#main-course-text, #dessert-text {
     width: 50%;
     float: right;
     box-sizing: border-box;
@@ -374,14 +374,6 @@ footer a:hover {
     float: left; 
     border-radius: 20px;
     border: 2px solid brown;
-}
-
-#dessert-text {
-    width: 50%;
-    float: right;
-    box-sizing: border-box;
-    height: 100%;
-    padding: 2%;
 }
 
 #main-menu-link {
@@ -574,7 +566,7 @@ transform:translateX(0);
 #order-confimation-outer {
     clear: both;
     width: 100%;
-    height: 75vh;
+    height: 700px;
     border-top: 3px solid brown ;
     padding: 5%;
     box-sizing: border-box;
@@ -615,7 +607,7 @@ transform:translateX(0);
     border-top: 3px solid brown ;
     padding: 5%;
     box-sizing: border-box;
-    max-height:85vh;
+    height:800px;
 }
 
 #signup-outer {
@@ -707,7 +699,7 @@ transform:translateX(0);
 #login-box-outer {
     clear: both;
     width: 100%;
-    height: 75vh ;
+    height: 800px;
     border-top: 3px solid brown ;
     padding: 5%;
     box-sizing: border-box;
@@ -778,7 +770,7 @@ transform:translateX(0);
 #password-reset-outer {
     clear: both;
     width: 100%;
-    height: 75vh;
+    height: 800px;
     border-top: 3px solid brown ;
     padding: 5%;
     box-sizing: border-box;
@@ -868,6 +860,10 @@ transform:translateX(0);
         line-height: 25px; 
     }
 
+    #hero-outer {
+        height:750px;
+    }
+    
     #hero-image {
         background: url(../images/hero-1200px.jpg) no-repeat center center;
         background-size:cover ;
@@ -877,35 +873,22 @@ transform:translateX(0);
         font-size: 105%;
     }
 
-    #chefs-outer {
-        margin-top: 30px;
-    }
-
     #chefs-image {
          background: url(../images/chefs-1200px.jpg) no-repeat center center ;
          background-size: cover;
     }
 
-    #signup-outer {
-        margin: auto auto 100px auto;
-    }
-} 
 
 /* For screen sizes 950px wide and down */
 @media screen and (max-width : 950px) {
-    #hero-outer {
-        height:76vh;
-    }
-
     #hero-image {
         background: url(../images/hero-below-950px\ .jpg);
         background-size: cover;
     } 
 
     #chefs-outer {
-        height: 100vh;
-        width:100%;
-        margin-top: 25px;
+        height: 1100px;
+        margin-top : 0;
         padding: 5%;
         box-sizing: border-box;
     } 
@@ -949,7 +932,7 @@ transform:translateX(0);
     #todays-special-outer {
         clear: both;
         width: 100%;
-        height: 110vh;
+        height: 1200px;
         padding: 5% 0;
         background-color: rgba(226, 132, 16, 0.2);
         border-top: 3px solid brown;
