@@ -1023,6 +1023,10 @@ transform:translateX(0);
         height: 100px;
     }
 
+    footer a {
+        font-size: 100%;
+    }
+
     #cover-text {
         font-size: 100%;
         height: 175px;
@@ -1096,6 +1100,7 @@ transform:translateX(0);
     }
 
     #chefs-outer {
+        height: 1200px;
         padding: 1%;
     }
 
@@ -1107,6 +1112,18 @@ transform:translateX(0);
         width: 95%;
     }
 
+    #testimonials-container {
+        height:550px;
+    }
+
+    #todays-special-outer { 
+        height: 1600px;
+    }
+
+    #special-menu {
+        height:95%;
+    }
+
     #signup-form p {
         font-size: large;
         font-weight: bold;
@@ -1114,28 +1131,6 @@ transform:translateX(0);
     
     #signup-form label{
         font-size: 125%;
-    }
-
-    footer {
-        height: 75px;
-        text-align: center;
-        margin: auto 0;
-        background-color: rgba(226, 132, 16, 0.2) ;
-        border-top: 3px solid brown;
-        padding: 30px;
-    }
-
-    .social-links i {
-        font-size: 250%;
-        color: brown;
-        margin: 0;
-        padding: 0 5%;   
-    }
-
-    footer a{
-        text-decoration: none;
-        color: brown;
-        margin: 50px auto;
     }
 
     #signup-outer {
