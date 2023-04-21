@@ -1015,6 +1015,10 @@ transform:translateX(0);
         font-size: 80%;
     }
 
+    #hero-outer {
+        height:500px;
+    }
+
     footer {
         height: 100px;
     }
