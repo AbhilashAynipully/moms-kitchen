@@ -8,7 +8,7 @@ This website is an Indian food ordering website, it introduces visitors to the t
 
 ![website homescreen on different websites](assets/images/multi-screen.png)
 
-[view site here](https://abhilashaynipully.github.io/moms-kitchen)
+[Click here to view website](https://abhilashaynipully.github.io/moms-kitchen)
 
 ## Contents
 
@@ -19,6 +19,8 @@ This website is an Indian food ordering website, it introduces visitors to the t
 - [Testing](##testing)
 - [Deployment](##deployment)
 - [Credits](##credits)
+
+
 
 
 ## User Experience (UX)
@@ -36,24 +38,26 @@ This website is an Indian food ordering website, it introduces visitors to the t
 - Visitor would like to signin and proceed in order to avoid filling in all the details while ordering again.
 - Visitor would want to navigate to social media links to provide feedback.
 
+
+
 ## User Experience Design (UXD)
 The 5 planes of User Experience Design were taken into serious consideration while designing the website, so that all the possible user stories can be dealth wit.
 Lets look at them in details basis each plane.
 
-### Strategy
+### Strategy Plane
 - Content is designed for anyone who is interesed in trying out Indian cuisine hence is culturally appropriate.
 - All content on the website is aimed at providing information towards the subject matter and hence is relevant.
 - Website has information in form of text , tables and images making it convenient and pleasent to use for users, hence has appropriate technology incorporation.
 - Website provides information about chefs and promotes homely food which makes it stand out among regular food ordering websites.
 - Website is open to all and will cater to different people using different platforms and hence is responsive.
 
-### Scope
+### Scope Plane
 - User of website would know about the Indian cuisine and chefs and various options available to order.
 - User can navigate through website and understand everything as the website is self explanatory.
 - Website only incorporates HTML and CSS technologies and hence functionality is limited upto certain extend.
 
 
-### Structure
+### Structure Plane
 #### Landing Page
 - Nav bar with links to Special page, Menu Page and Signup Page.
 - Hero image (Indian Dishes) with cover text. 
@@ -71,11 +75,50 @@ Lets look at them in details basis each plane.
 - Nav bar with links to Special page, Menu Page and Signup Page.
 - Detailed menu with all dishes and option to choose the quantity.
 - List is exhaustive separated into different tables based on type of food.
-- Button to place order. ()
+- Button to place order. (Currently not funtional due to limited technology use, HTML & CSS).
+- Footer with social media links.
+#### Signup Page
+- Nav bar with links to Special page, Menu Page and Signup Page.
+- Signup box for users to fill in details and signup.
+- Link for login terminal for existing users to login.
 - Footer with social media links.
 
+ ### Skeleton Plane
+ Basis the structure plane a blueprint for the site was created. Wireframes for three different platforms were created to display responsiveness of the website.
+ 1. Desktop
+ 2. Tablet
+ 3. Mobile
 
- 
-      
+The wireframes were made with the help of Balsamiq.
+[Click here to view wireframes]()
+
+### Surface Plane 
+Every attempt was made to ensure that the website appears appealing to the visitors. This required taking care of aspects like
+
+#### 1. Color
+Shades of Orange and Brown colors were considered for the website as these colors represent the spices and herbs of Indian Cuisine.
+
+#### 2. Typography
+For logo regular font of Oswald was used which was imported from Google Fonts.
+
+For headings (h2 onwards) and paragraph Times was used considering improved readability.
+
+#### 3. Imgery
+Hero image : The image of Indian dishes was sourced from pexels.com contributed by Anil Sharma.
+Chefs : The image of both chefs was taken by me.
+Main Course : The image of Vegetable Biriyani was sourced from pexels.com contributed by Saveurs Secretes.
+Dessert : The image of Gulab Jamun was sourced from pexels.com contributed by Zenith Photographics.
+
+#### 4. Iconography
+For social media links in footer icons were used and were sourced from Font Awesome.
 
 
+## Features
+
+### Navigation Bar
+
+  - The navigation bar is available on all pages and consumes little space of viewport so that much of the contents is not covered.
+  - As the screen width decreases the links to other pages comes below the website logo.
+  - An underline is present below the active link on the navigation menu.
+  - On hover the links in navigation menu change color to orange from default brown.
+  
