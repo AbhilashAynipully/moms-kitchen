@@ -90,7 +90,7 @@ Lets look at them in details basis each plane.
  3. Mobile
 
 The wireframes were made with the help of Balsamiq.
-[Click here to view wireframes]()
+[Click here to view wireframe](/assets/wireframe/wireframe.pdf)
 
 ### Surface Plane 
 Every attempt was made to ensure that the website appears appealing to the visitors. This required taking care of aspects like
