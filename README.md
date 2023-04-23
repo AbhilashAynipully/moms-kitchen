@@ -196,7 +196,7 @@ For social media links in footer icons were used and were sourced from Font Awes
 Thank you Mr Anthony Ugwu for being a great mentor, I couldn't have asked for a better mentor. He guided me through this projects with his feedback and suggestions. Showed me the right path to complete my first project successfully.
 
  ### Content
-- Written content for the Chefs was contributed by my wife who the the daughter chef.
+- Written content for the Chefs was contributed by my wife who is the the daughter chef.
 - Written content for the dessert gulab jamun under special was obtained from wikipedia.
 - Written content for the vegetable biriyani was obtained from the website www.indianhealthyrecipes.com.
  
@@ -204,7 +204,7 @@ Thank you Mr Anthony Ugwu for being a great mentor, I couldn't have asked for a 
  - All Images were obtained from pexels.com except the chef's images which was taken by me.
 
  ### Code
- - All code was written by me.
+ - All codes were written by me.
  - Inspiration for the footer was taken from the love running project of www.codeinstitute.net.
 
 
