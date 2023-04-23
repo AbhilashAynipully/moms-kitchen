@@ -13,12 +13,12 @@ This website is an Indian food ordering website, it introduces visitors to the t
 ## Contents
 
 - [Introduction](#moms-kitchen)
-- [User Experience (UX)](###user-stories)        
-- [User Experience Design (UXD)](##user-experience-design)
-- [Features](##features)
-- [Testing](##testing)
-- [Deployment](##deployment)
-- [Credits](##credits)
+- [User Experience (UX)](#user-experience-ux)        
+- [User Experience Design (UXD)](#user-experience-design-uxd)
+- [Features](#features)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 
 
