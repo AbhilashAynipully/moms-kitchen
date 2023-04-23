@@ -103,7 +103,7 @@ For logo regular font of Oswald was used which was imported from Google Fonts.
 
 For headings (h2 onwards) and paragraph Times was used considering improved readability.
 
-#### 3. Imgery
+#### 3. Imagery
 Hero image : The image of Indian dishes was sourced from pexels.com contributed by Anil Sharma.
 Chefs : The image of both chefs was taken by me.
 Main Course : The image of Vegetable Biriyani was sourced from pexels.com contributed by Saveurs Secretes.
@@ -116,9 +116,34 @@ For social media links in footer icons were used and were sourced from Font Awes
 ## Features
 
 ### Navigation Bar
+  - The navigation bar is available on all pages and consumes small portion of viewport so that much of the contents is not covered.
 
-  - The navigation bar is available on all pages and consumes little space of viewport so that much of the contents is not covered.
+  ![navbar on large screens](assets/images/nav-bar.png)
+
   - As the screen width decreases the links to other pages comes below the website logo.
+
+    ![navbar on small screens](assets/images/nav-bar-small.png)
+
   - An underline is present below the active link on the navigation menu.
-  - On hover the links in navigation menu change color to orange from default brown.
+  - On hover the links in navigation menu change color to orange from default brown and the font size increases.
+### Hero Image
+  - The hero image and cover text appears with an animation grabbing the users attention while landing on the home page.
+  - The cover text conveys the name of the website and tells user about the focus area of the website.
+
+   ![hero image with cover text](assets/images/hero-section.png)
+
+
+
+### Chefs Section
+  - The chefs section introduces the mother-daughter duo who are the chefs prearing the food.
+
+   ![image of chefs](assets/images/chefs-section.png)
+
+### Todays Special 
+  - The Today's Special section shows pictures and details of the special dishes of the day.
+  - The special items appear with an animation grabbing users attention towards it.
+
+
+
+  
   
