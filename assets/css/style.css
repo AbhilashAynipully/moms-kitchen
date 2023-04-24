@@ -530,7 +530,7 @@ transform:translateX(0);
 }
 
 
-/* pay */
+/* pay button */
 
 #pay {
     margin:20px 0;
@@ -545,19 +545,13 @@ transform:translateX(0);
     padding:5px 10px;
     border: 2px solid brown;
     box-sizing: border-box;
-    border-radius: 10px;   
+    border-radius: 10px;  
+    color: brown; 
 }
 
 #pay button:hover {
     transform: scale(1.25);
     background-color: orange;
-}
-
-#pay a {
-    text-decoration: none;
-    color: brown;
-    /*animates flashing effect of payment link*/
-    animation: blinking 1s infinite;
 }
 
 

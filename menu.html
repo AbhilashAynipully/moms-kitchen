@@ -26,6 +26,7 @@
         <h2>What are you craving for?</h2>
     </section>
     <section id="menu">
+      <form action="#" method="post" onsubmit="return false">
         <h3>Starters</h3>
       <table id="starters">
         <thead>
@@ -40,7 +41,7 @@
             <td>Mixed Veg Pakora</td>
             <td>£5.25</td>
             <td>
-              <select name="quantity" id="mix-veg-pakora" required>
+              <select name="quantity" id="mix-veg-pakora">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -94,7 +95,7 @@
             </td>
           </tr>
           <tr>
-            <td>Papri Caaat</td>
+            <td>Papri Chaat</td>
             <td>£7.45</td>
             <td>
               <select name="quantity" id="papri-chaat">
@@ -151,10 +152,10 @@
             </td>
           </tr>
           <tr>
-            <td>Chicken Tikka</td>
+            <td>Chicken Raan</td>
             <td>£9.75</td>
             <td>
-              <select name="quantity" id="chicken-tikka">
+              <select name="quantity" id="chicken-raan">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -188,7 +189,6 @@
               </select>
             </td>
           </tr>
-          <tr></tr>
         </tbody>
       </table>
 
@@ -614,7 +614,6 @@
               </select>
             </td>
           </tr>
-          <tr></tr>
         </tbody>
       </table>
       <h3>Desserts</h3>
@@ -724,9 +723,10 @@
           </tr>
         </tbody>
       </table>
-    </section>
-    <section id="pay">
-        <button type="submit"><a href="order.html">Place Order</a></button>
+      <div id="pay">
+        <button type="submit">Place Order</button>
+    </div>
+    </form>
     </section>
     <footer>
       <ul class="social-links">
