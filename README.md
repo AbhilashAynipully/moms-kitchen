@@ -1,6 +1,6 @@
 # Mom's Kitchen
 
-## Relish The taste of Indian cuisine
+## Relish The Taste Of Indian Cuisine
 
 This website is an Indian food ordering website, it introduces visitors to the the mother- daughter duo who are the chefs behind all the dishes available on the website. The site enables visitors to know about chefs , special dish for the day and allows them to order food of their choice from the menu available. It talks about discount and allows customer to sign-up to avail this discount.
 
@@ -29,8 +29,8 @@ This website is an Indian food ordering website, it introduces visitors to the t
 
 ####  As a New Visitor:
 - Visitor would want to understand the purpose of the site from home page onwards.
-- Visitor would want to be able to easily navigate through the website and quickly able to locate the content he/she is looking for.
-- Visitor would want to know the credibility by way of feedbacks and responses by previous users.
+- Visitor would want to easily navigate through the website and quickly be able to locate the content they are looking for.
+- Visitor would want to understand the credibility through feedbacks and responses by previous users.
 - Visitor would like to find social media links of the author to know more.
 
 ####  As a Returning Visitor:
@@ -45,11 +45,11 @@ The 5 planes of User Experience Design were taken into serious consideration whi
 Lets look at them in details basis each plane.
 
 ### Strategy Plane
-- Content is designed for anyone who is interesed in trying out Indian cuisine hence is culturally appropriate.
+- Content is designed for anyone who is interesed in trying out Indian cuisine so is constructed culturally appropriate.
 - All content on the website is aimed at providing information towards the subject matter and hence is relevant.
-- Website has information in form of text , tables and images making it convenient and pleasent to use for users, hence has appropriate technology incorporation.
-- Website provides information about chefs and promotes homely food which makes it stand out among regular food ordering websites.
-- Website is open to all and will cater to different people using different platforms and hence is responsive.
+- Website has information in the form of text , tables and images making it convenient for users, hence has appropriate technology incorporation.
+- Website provides information about chefs and promotes homely food which makes it unique among regular food ordering websites.
+- Website is open to all and will cater to different people using various platforms and hence is responsive.
 
 ### Scope Plane
 - User of website would know about the Indian cuisine and chefs and various options available to order.
@@ -63,18 +63,18 @@ Lets look at them in details basis each plane.
 - Hero image (Indian Dishes) with cover text. 
 - Introduction to chefs and about their background.
 - Testimonials of previous customers.
-- Details and link of discount thats available on signup.
+- Details and link for the discount available on signup.
 - Footer with social media links.
 #### Special Page
 - Nav bar with links to Special page, Menu Page and Signup Page.
-- Today's special section which talks about 2 special dishes.
+- Today's special section which provides details about 2 special dishes.
 - Special section has images and brief description about the dishes of the day.
 - Link to main menu if user wants to check out all dishes.
 - Footer with social media links.
 #### Menu Page
 - Nav bar with links to Special page, Menu Page and Signup Page.
 - Detailed menu with all dishes and option to choose the quantity.
-- List is exhaustive separated into different tables based on type of food.
+- List is exhaustive and is separated into different tables based on type of food.
 - Button to place order. (Currently not funtional due to limited technology use, HTML & CSS).
 - Footer with social media links.
 #### Signup Page
@@ -136,7 +136,7 @@ For social media links in footer icons were used and were sourced from Font Awes
 
 
 ### Chefs Section
-  - The chefs section introduces the mother-daughter duo who are the chefs prearing the food.
+  - The chefs section introduces the mother-daughter duo who are the chefs preparing the food.
 
    ![image of chefs](assets/images/chefs-section.png)
 
@@ -160,7 +160,7 @@ For social media links in footer icons were used and were sourced from Font Awes
 
   - It can be confirmed that the website works and is responsive accross devices as some of my friends and family tried using the website.
 
-  - All contents on the website are readble and easy to understand.
+  - All contents on the website are readable and easy to understand.
 
   - All the forms require users to fill in the details to proceed, however buttons are not functional yet due to limitation of technology to HTML and CSS only.
 
@@ -173,7 +173,7 @@ For social media links in footer icons were used and were sourced from Font Awes
 
   - Lighthouse test was conducted on Google Chrome to check site performance and following results were obtained. 
 
-   ![image of chefs](assets/images/lighthouse-results.png)
+   ![Lighthouse Report](assets/images/lighthouse-results.png)
 
 
 ## Bug Fixes
@@ -188,7 +188,7 @@ For social media links in footer icons were used and were sourced from Font Awes
      1. In GitHub repository navigate to the settings tav.
      2. Scroll down and select Pages from the left side navigation menu to open GitHub pages.
      3. In the source select deploy from branch and under branch select main.
-     4. after selecting from main click on save and refresh the message appears stating 'Your site is live at https://abhilashaynipully.github.io/moms-kitchen/'
+     4. After selecting Main click on save and refresh, the message appears stating 'Your site is live at https://abhilashaynipully.github.io/moms-kitchen/'
 
 
 ## Credits
@@ -196,7 +196,7 @@ For social media links in footer icons were used and were sourced from Font Awes
 Thank you Mr Anthony Ugwu for being a great mentor, I couldn't have asked for a better mentor. He guided me through this projects with his feedback and suggestions. Showed me the right path to complete my first project successfully.
 
  ### Content
-- Written content for the Chefs was contributed by my wife who is the the daughter chef.
+- Written content for the Chefs was contributed by my wife who is the daughter chef.
 - Written content for the dessert gulab jamun under special was obtained from wikipedia.
 - Written content for the vegetable biriyani was obtained from the website www.indianhealthyrecipes.com.
  
