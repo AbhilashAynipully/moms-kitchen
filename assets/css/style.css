@@ -550,8 +550,8 @@ transform:translateX(0);
 }
 
 #pay button:hover {
-    transform: scale(1.25);
-    background-color: orange;
+    transform: scale(1.1);
+    color:blueviolet;
 }
 
 
@@ -642,7 +642,7 @@ transform:translateX(0);
     display: block;
     width: 100%;
     margin-bottom: 10px;
-    font-size: x-large;
+    font-size:large;
     color: brown;
     border: 2px solid brown;
     border-radius: 5px;
@@ -655,7 +655,7 @@ transform:translateX(0);
     transform: scale(1.05);
 }
 
-#signup-form a, #signup-form button{
+#signup-form a{
     text-decoration: none;
     /*animates flashing effect of text*/
     animation: flashing-text 2s infinite;
@@ -664,6 +664,7 @@ transform:translateX(0);
 #signup-form a:hover,#signup-form button:hover  {
     animation: none;
     color:blueviolet;
+    transform: scale(1.1);
 }
 
 #signup-form button {
@@ -674,6 +675,7 @@ transform:translateX(0);
     border: 3px solid brown;
     box-sizing: border-box;
     border-radius: 10px;   
+    color: brown        ;
 }
 
 /* creates zoom effect */
@@ -744,12 +746,13 @@ transform:translateX(0);
 #login-box button:hover,#login-box a:hover{
     animation: none;
     color:blueviolet;
+    transform: scale(1.1);
 }
 
 #login-box button {
     display: block;
     background-color: rgba(226, 132, 16, 0.2);
-    font-size: 125%;
+    font-size: 110%;
     font-weight: bold;
     padding:5px 10px;
     border: 3px solid brown;
@@ -820,6 +823,7 @@ transform:translateX(0);
 #password-reset-box button:hover  {
     animation: none;
     color:blueviolet;
+    transform: scale(1.05);
 }
 
 #password-reset-box button {
@@ -830,8 +834,7 @@ transform:translateX(0);
     border: 3px solid brown;
     box-sizing: border-box;
     border-radius: 10px;   
-    /*animates flashing effect of text*/
-    animation: flashing-text 2s infinite;
+    color: brown;
 }
 
 /* @media queries */
